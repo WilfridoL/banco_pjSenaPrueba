@@ -1,8 +1,9 @@
-main{
+.inicio_contenido{
   width: 100%;
   display: grid;
   grid-template-columns: 350px 1fr;
   gap: 40px;
+  position: relative;
 }
 
 aside{
@@ -59,8 +60,14 @@ article{
   border-radius: 5px;
   overflow: hidden;
   gap: 16px;
+  transition: var(--transition);
+  &:hover{
+    transform: translateY(-4px);
+  }
 }
-
+.card a{
+  color: var(--dark-gray);
+}
 .card h3{
   font-size: var(--text-20);
   counter-reset: var(--primary);
@@ -76,4 +83,24 @@ article{
 .card p{
   padding: 0px 20px 16px 20px;
   text-align: left;
+}
+.servicio_cliente{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--black);
+  color: var(--white);
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .7px solid var(--gray);
+  font-size: var(--text-32);
+  cursor: pointer;
+  transition: var(--transition);
+  &:hover{
+    color: var(--gray);
+  }
 }
