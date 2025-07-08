@@ -1,0 +1,67 @@
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(contenido_inicio.css);
+/* Variables */
+:root {
+  --primary: #FFCC00;
+  --dark-gray: #2E2E2E;
+  --gray: #666666;
+  --bck: #F2F2F2;
+  --white: #FFFFFF;
+  --black: #1A1A1A;
+  --text-16: 16px;
+  --text-20: 20px;
+  --text-32: 32px;
+  --transition: all .2s;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor{
+  width: 100%;
+  height: auto;
+  background: var(--bck);
+  position: relative;
+  font-family: "Lato", sans-serif;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  transition: var(--transition);
+}
+ul{
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  background: var(--black);
+  color: var(--bck);
+  padding: 20px 60px;
+}
+.block-1, .block-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.block-1 ul{
+  text-align: right;
+  & li a{
+    color: var(--gray);
+    &:hover{
+      color: var(--primary);
+    }
+  }
+}
+.block-2 {
+  color: var(--gray);
+  margin-top: 20px;
+  text-align: right;
+}

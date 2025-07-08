@@ -1,0 +1,79 @@
+main{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 40px;
+}
+
+aside{
+  text-align: center;
+  background: var(--black);
+}
+section h3 {
+  width: 100%;
+  font-size: var(--text-20);
+  color: var(--primary);
+  background: var(--dark-gray);
+  padding: 20px 0px
+}
+
+section ul{
+  padding: 0px 30px 16px;
+}
+
+section ul li{
+  padding: 16px 0px;
+  border-bottom: .7px solid var(--gray);
+  font-size: var(--text-16);
+}
+section ul li a {
+  color: var(--bck);
+  &:hover{
+    color: var(--primary);
+  }
+}
+
+section:nth-child(2) ul li:nth-child(2),
+section:nth-child(1) ul li:nth-child(4) {
+  border-bottom: none;
+}
+
+/* cards */
+
+article{
+  padding: 30px 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card{
+  width: 350px;
+  background: var(--white);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  gap: 16px;
+}
+
+.card h3{
+  font-size: var(--text-20);
+  counter-reset: var(--primary);
+  width: 100%;
+  background: var(--black);
+  padding: 16px 20px;
+  color: var(--primary);
+}
+.card img{
+  width: 320px;
+  margin-top: 16px;
+}
+.card p{
+  padding: 0px 20px 16px 20px;
+  text-align: left;
+}

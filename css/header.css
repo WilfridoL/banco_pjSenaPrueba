@@ -1,0 +1,71 @@
+header{
+  width: 100%;
+  height: auto;
+}
+/* logo diseño */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.tituloLogo h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.tituloLogo h3 {
+  font-size: var(--text-20);
+  font-weight: 300;
+}
+
+.logo img{
+  width: 20%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background: var(--black);
+  justify-content: space-between;
+  padding: 16px 60px;
+}
+
+nav ul{
+  display: inherit;
+  align-items: center;
+  gap: 16px;
+}
+
+nav li a{
+  font-size: var(--text-16);
+  color: var(--white);
+  font-weight: 600;
+  &:hover,
+  &.active{
+    color: var(--primary);
+  }
+}
+
+.sesion button{
+  padding: 5px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 16px;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--white);
+  font-size: var(--text-16);
+  transition: var(--transition);
+}
+
+.sesion button:nth-child(2),
+.sesion button:nth-child(1):hover{
+  background: var(--dark-gray);
+}
+.sesion button:nth-child(2):hover{
+  background: var(--gray);
+}
+
