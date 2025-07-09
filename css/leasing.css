@@ -1,0 +1,73 @@
+
+
+.tipos-leasing {
+  margin-top: 32px;
+}
+
+section h2{
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--dark-gray);
+  font-size: var(--text-20);
+}
+
+.card-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+ .card2 {
+  background-color: var(--white);
+  padding: 16px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+  &:hover{
+    transform: translateY(-4px);
+  }
+}
+
+.card2 img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card2 h4 {
+  color: var(--primary);
+  font-size: var(--text-20);
+  margin-bottom: 8px;
+}
+
+.card2 p {
+  color: var(--gray);
+  font-size: var(--text-16);
+}
+
+.beneficios, .faq {
+  margin-top: 32px;
+}
+
+.beneficios ul, 
+.faq ul{
+  max-width: 600px;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  font-size: var(--text-16);
+  color: var(--black);
+}
+
+.leasing .beneficios li {
+  margin-bottom: 8px;
+}
+
+.contenido .accion {
+  text-align: center;
+  margin-top: 32px;
+}

@@ -19,16 +19,14 @@
       <nav>
         <ul>
           <li><a href="./index.html" class="active">Inicio</a></li>
-          <li><a href="./pag/404.html">Creditos</a></li>
-          <li><a href="./pag/404.html">Leasing</a></li>
-          <li><a href="./pag/404.html">Ahorros</a></li>
-          <!-- quitar servicio al cliente y colocarlo como un boton fijo abajo a la derecha con un icono de
-          unos audifonos -->
-          <li><a href="./pag/404.html">Servicio al cliente</a></li>
+          <li><a href="./pag/creditos.html">Creditos</a></li>
+          <li><a href="./pag/leasing.html">Leasing</a></li>
+          <li><a href="./pag/ahorro.html">Ahorros</a></li>
+          <li><a href="./pag/servicioCli.html">Servicio al cliente</a></li>
         </ul>
         <div class="sesion">
-          <button type="button">Registrarse</button>
-          <button type="button">Iniciar sesión</button>
+          <button type="button" id="reg">Registrarse</button>
+          <button type="button" id="ini">Iniciar sesión</button>
         </div>
       </nav>
     </header>
@@ -81,10 +79,13 @@
           </a>
         </div>
       </article>
-      <div class="servicio_cliente">
-        <i class="fa-solid fa-headset"></i>
-      </div>
     </main>
+    <div class="overlay">
+      <form action="" id="form">
+        <button type="button" class="btn_exit"><i class="fa-solid fa-circle-xmark"></i></button>
+        <div class="contenedorInputs"></div>
+      </form>
+    </div>
     <footer>
       <div class="block-1">
         <div class="tituloLogo">
@@ -93,9 +94,10 @@
         </div>
         <ul>
           <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./pag/404.html">Creditos</a></li>
-          <li><a href="./pag/404.html">Leasing</a></li>
-          <li><a href="./pag/404.html">Ahorros</a></li>
+          <li><a href="./pag/creditos.html">Creditos</a></li>
+          <li><a href="./pag/leasing.html">Leasing</a></li>
+          <li><a href="./pag/ahorro.html">Ahorros</a></li>
+          <li><a href="./pag/servicioCli.html">Servicio al cliente</a></li>
         </ul>
       </div>
       <div class="block-2">
@@ -105,6 +107,6 @@
     </footer>
   </div>
   <script src="https://kit.fontawesome.com/bc3dfab8e3.js" crossorigin="anonymous"></script>
-
+  <script src="./main.js"></script>
 </body>
 </html>

@@ -61,6 +61,7 @@ article{
   overflow: hidden;
   gap: 16px;
   transition: var(--transition);
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
   &:hover{
     transform: translateY(-4px);
   }
@@ -70,11 +71,12 @@ article{
 }
 .card h3{
   font-size: var(--text-20);
-  counter-reset: var(--primary);
+  font-weight: bold;
   width: 100%;
   background: var(--black);
   padding: 16px 20px;
   color: var(--primary);
+  text-transform: uppercase;
 }
 .card img{
   width: 320px;
@@ -84,7 +86,7 @@ article{
   padding: 0px 20px 16px 20px;
   text-align: left;
 }
-.servicio_cliente{
+/* .servicio_cliente{
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -103,4 +105,4 @@ article{
   &:hover{
     color: var(--gray);
   }
-}
+} */

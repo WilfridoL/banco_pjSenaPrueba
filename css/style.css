@@ -3,6 +3,10 @@
 @import url(header.css);
 @import url(contenido_inicio.css);
 @import url(404.css);
+@import url(credito.css);
+@import url(leasing.css);
+@import url(servicio.css);
+@import url(formulario.css);
 /* Variables */
 :root {
   --primary: #FFCC00;
@@ -69,4 +73,29 @@ footer {
 
 main{
   font-family: 'Roboto';
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--black);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: var(--text-16);
+  cursor: pointer;
+  transition: var(--transition);
+  &:hover{
+    background-color: var(--dark-gray);
+  color: var(--white);
+  }
+}
+
+.contenido {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 60px;
+  background-color: var(--bck);
+  font-family: sans-serif;
+  color: var(--black);
 }
