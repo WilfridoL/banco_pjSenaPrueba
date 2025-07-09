@@ -38,15 +38,15 @@
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  & h3{
-    width: 100%;
-    display: block;
-    font-size: var(--text-32);
-    font-weight: 500;
-  }
-  & p{
-    font-size: var(--text-20);
-  }
+}
+.beneficio h3{
+  width: 100%;
+  display: block;
+  font-size: var(--text-32);
+  font-weight: 500;
+}
+.beneficio p{
+  font-size: var(--text-20);
 }
 
 .btn{

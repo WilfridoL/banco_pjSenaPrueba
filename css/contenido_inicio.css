@@ -29,9 +29,9 @@ section ul li{
 }
 section ul li a {
   color: var(--bck);
-  &:hover{
-    color: var(--primary);
-  }
+}
+section ul li a:hover{
+  color: var(--primary);
 }
 
 section:nth-child(2) ul li:nth-child(2),
@@ -62,9 +62,9 @@ article{
   gap: 16px;
   transition: var(--transition);
   box-shadow: 0 2px 8px rgba(0,0,0,.1);
-  &:hover{
-    transform: translateY(-4px);
-  }
+}
+.card:hover{
+  transform: translateY(-4px);
 }
 .card a{
   color: var(--dark-gray);

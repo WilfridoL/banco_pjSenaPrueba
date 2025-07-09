@@ -1,9 +1,10 @@
-.error{
+.error {
     width: 100%;
     text-align: center;
     padding: 60px;
 }
-.error h2{
+
+.error h2 {
     font-size: 60px;
     color: var(--dark-gray);
 }
@@ -13,15 +14,15 @@
     margin-bottom: 16px;
 }
 
-.error a{
+.error a {
     padding: 8px 12px;
     border-radius: 5px;
     background: var(--primary);
     color: var(--dark-gray);
     transition: var(--transition);
     font-size: var(--text-20);
+}
 
-    &:hover{
-        color: var(--gray);
-    }
+.error a:hover {
+    color: var(--gray);
 }

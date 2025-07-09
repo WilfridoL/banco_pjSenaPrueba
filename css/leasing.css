@@ -27,9 +27,9 @@ section h2{
   text-align: center;
   transition: var(--transition);
   cursor: pointer;
-  &:hover{
-    transform: translateY(-4px);
-  }
+}
+.card2:hover{
+  transform: translateY(-4px);
 }
 
 .card2 img {

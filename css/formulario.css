@@ -7,9 +7,9 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  &.activeForm{
-    display: flex;
-  }
+}
+.overlay.activeForm{
+  display: flex;
 }
 
 .overlay form{
@@ -63,8 +63,8 @@
   cursor: pointer;
   border: none;
   background: transparent;
-  &:hover{
-    color: var(--dark-gray);
-    transform: translateY(-4px);
-  }
+}
+.overlay .btn_exit:hover{
+  color: var(--dark-gray);
+  transform: translateY(-4px);
 }

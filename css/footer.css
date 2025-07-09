@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  background: var(--black);
+  color: var(--bck);
+  padding: 20px 60px;
+}
+.block-1, .block-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.block-1 ul{
+  text-align: right;
+}
+.block-1 ul li a{
+  color: var(--gray);
+}
+.block-1 ul li a:hover{
+  color: var(--primary);
+}
+.block-2 {
+  color: var(--gray);
+  margin-top: 20px;
+  text-align: right;
+}

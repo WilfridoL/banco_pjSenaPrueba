@@ -42,10 +42,10 @@ nav li a{
   font-size: var(--text-16);
   color: var(--white);
   font-weight: 600;
-  &:hover,
-  &.active{
-    color: var(--primary);
-  }
+}
+nav li a:hover,
+nav li a.active{
+  color: var(--primary);
 }
 
 .sesion button{
