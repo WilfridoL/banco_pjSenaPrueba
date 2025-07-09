@@ -27,7 +27,7 @@ const selectForm = () => {
       `)
     break;
   case 1: crearFormulario(`
-    <h3>Registrase</h3>
+    <h3>Registrarse</h3>
       <div class="campo">
           <label for="">Nombres*</label>
           <input type="text" id="" required placeholder="Ingresar nombre...">
