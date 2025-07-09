@@ -48,10 +48,10 @@
 .beneficio p{
   font-size: var(--text-20);
 }
-
+/* 
 .btn{
   width: 60%;
-  padding: 20px 30px;
+    padding: 12px 24px;
   background: var(--primary);
   font-size: var(--text-32);
   font-weight: 600;
@@ -62,8 +62,8 @@
   margin-top: 40px;
   transition: var(--transition);
   cursor: pointer;
-  &:hover{
-    color: var(--dark-gray);
-    transform: translateY(-4px);
-  }
 }
+.btn:hover{
+  color: var(--dark-gray);
+  transform: translateY(-4px);
+} */
